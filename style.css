@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 10%), rgba(0, 0, 0, 25%)), url(img/background.jpg);
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#addForm input {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#addform button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#searchForm {
+    padding-bottom: 10px;
+}
+
+#searchForm input {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#searchForm button {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border: 1px solid black;
+}
+
+.fullNote {
+    background-image: url(img/note.png);
+    height: 283px;
+    width: 283px;
+    display: inline-block;
+}
+
+.noteInside {
+    padding-top: 20%;
+}
+
+.fullNote p {
+    padding-top: 5%;
+}
+
+.delBtn {
+    display: none;
+}
+
+.fullNote:hover .delBtn {
+    display: block;
+    background-color: transparent;
+    width: 25px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 15%;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Notes</title>
+</head>
+
+<body>
+    <h1>My Note Board</h1>
+    <form id="searchForm">
+        <input type="text" id="searchText" placeholder="Search Note">
+        <button type="button" id="seaBtn">Search</button>
+    </form>
+    <form id="addForm">
+        <textarea id="noteText" cols="22" rows="6" placeholder="Note Details" required></textarea>
+        <input type="date" id="noteDate" placeholder="Note destination date" required>
+        <input type="time" id="noteTime" placeholder="Note destination time" required>
+        <button id="addBtn" type="button">Add Note</button>
+    </form>
+    <section id="notesSection"></section>
+    <script src="script.js"></script>
+</body>
+
+</html>
